@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import CoreLocation
 
 class RestaurantTableViewController: UITableViewController {
     
     var restaurants = [Restaurant]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +29,6 @@ class RestaurantTableViewController: UITableViewController {
                 self.tableView.reloadData()
             }
         }
-
     }
 
     // MARK: - Table view data source
@@ -48,8 +49,14 @@ class RestaurantTableViewController: UITableViewController {
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier == "listToMapVC" {
+            guard let indexPath = tableView.indexPathForSelectedRow else {
+                return
+            }
+            
+            let destinationVC = segue.destination as? MapDetailViewController
+            destinationVC?.restaurant = restaurants[indexPath.row]
+        }
     }
     
-
 }

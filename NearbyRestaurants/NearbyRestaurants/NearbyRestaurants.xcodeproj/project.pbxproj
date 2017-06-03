@@ -14,6 +14,7 @@
 		46AA18A91EE25E3A00C95AFD /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA18A81EE25E3A00C95AFD /* Restaurant.swift */; };
 		46AA18AC1EE25E6A00C95AFD /* RestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA18AB1EE25E6A00C95AFD /* RestaurantController.swift */; };
 		46AA18AE1EE2730E00C95AFD /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA18AD1EE2730E00C95AFD /* RestaurantTableViewController.swift */; };
+		46AA18B01EE3296200C95AFD /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA18AF1EE3296200C95AFD /* MapDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		46AA18A81EE25E3A00C95AFD /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		46AA18AB1EE25E6A00C95AFD /* RestaurantController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantController.swift; sourceTree = "<group>"; };
 		46AA18AD1EE2730E00C95AFD /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		46AA18AF1EE3296200C95AFD /* MapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				46AA18AD1EE2730E00C95AFD /* RestaurantTableViewController.swift */,
+				46AA18AF1EE3296200C95AFD /* MapDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AA18B01EE3296200C95AFD /* MapDetailViewController.swift in Sources */,
 				46AA18A91EE25E3A00C95AFD /* Restaurant.swift in Sources */,
 				46AA18941EE254D800C95AFD /* AppDelegate.swift in Sources */,
 				46AA18AE1EE2730E00C95AFD /* RestaurantTableViewController.swift in Sources */,
@@ -344,6 +348,7 @@
 				46AA18A41EE254D800C95AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
