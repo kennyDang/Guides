@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "46cd50374408162364bd8b7389bd9412"
+build_time: [1518207520, 103864000]
+inputs:
+  "/Users/Oranges/XCode/guides/Framework Fridays/Jazzy Example/Jazzy Example/Models/Duck.swift": [9223372036, 854775807]
+  "/Users/Oranges/XCode/guides/Framework Fridays/Jazzy Example/Jazzy Example/ViewControllers/ViewController.swift": [9223372036, 854775807]
+  "/Users/Oranges/XCode/guides/Framework Fridays/Jazzy Example/Jazzy Example/Protocols/SuperCoolProtocol.swift": [9223372036, 854775807]
+  "/Users/Oranges/XCode/guides/Framework Fridays/Jazzy Example/Jazzy Example/AppDelegate.swift": [9223372036, 854775807]
